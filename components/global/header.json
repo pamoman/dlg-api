@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_global_header",
+  "info": {
+    "name": "Header",
+    "icon": "pager",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "routes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.route"
+    },
+    "pwa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.pwa"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

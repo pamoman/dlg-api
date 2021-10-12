@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dlg-open-map",
+      "handler": "dlg-open-map.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dlg-open-map",
+      "handler": "dlg-open-map.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dlg-open-map",
+      "handler": "dlg-open-map.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

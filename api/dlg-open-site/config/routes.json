@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dlg-open-site",
+      "handler": "dlg-open-site.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dlg-open-site",
+      "handler": "dlg-open-site.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dlg-open-site",
+      "handler": "dlg-open-site.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

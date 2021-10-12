@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "dlg_open_start",
+  "info": {
+    "name": "DLG Open Start",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "blocks": {
+      "pluginOptions": {},
+      "type": "dynamiczone",
+      "components": [
+        "block.stream",
+        "block.wysiwyg",
+        "block.slideshow",
+        "block.pdf",
+        "block.image",
+        "block.video",
+        "block.hero"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {},
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dlg-open-schedule",
+      "handler": "dlg-open-schedule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dlg-open-schedule",
+      "handler": "dlg-open-schedule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dlg-open-schedule",
+      "handler": "dlg-open-schedule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
